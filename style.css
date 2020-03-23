@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif !important;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .infyFoot {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.topnav {
+  background-color: #000;
+  height: 70px;
+  padding: 22px;
+  /* padding-left: 5%; */
+  /* border-bottom: 3px solid white; */
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.topnav .logo-container {
+  width: 50%;
+  padding-right: 0%;
+}
+
+.topnav .navlinks {
+  width: 100%;
+  /* padding-right: 10%;
+  padding-left: 50%; */
+  color: #fff;
+  text-align: right;
+  height: 100px;
+}
+
+.topnav .navlinks a {
+  color: #fff;
+  margin: 10px;
+  height: 60px;
+  text-decoration: none;
+}
+
+.landing {
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 300px;
+}
+
+.home-landing {
+  background-image: url("flower-bg.png");
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing .landing-title {
+  font-size: 40pt;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.landing .landing-subtitle {
+  font-size: 30pt;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.landing .caption {
+  /* font-size: 13pt; */
+  font-family: "Nunito Sans", sans-serif;
+  padding: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.text-body {
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.text-body p {
+  margin-bottom: 30px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.square-button {
+  color: #000;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 200px !important;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.square-button:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.gethomeicon {
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
